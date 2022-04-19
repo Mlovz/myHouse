@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 57px);
+    &__card{
+        p{
+            margin-top: 20px;
+            max-width: 400px;
+            text-align: center;
+            font-size: 16px;
+        }
+        &__btn{
+            display: flex;
+            justify-content: center;
+        }
+        &__link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            
+            a{
+                color: #0077FF;
+                margin-left: 10px;
+            }
+            span{
+                color: #0077FF;
+            }
+        }
+    }
+}

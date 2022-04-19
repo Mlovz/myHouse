@@ -1,0 +1,17 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    &__menu{
+        padding: 10px 0;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        span{
+            font-size: 24px;
+            margin-left: 10px;
+        }
+    }
+}

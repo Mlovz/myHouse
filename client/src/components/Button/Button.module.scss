@@ -1,0 +1,25 @@
+.button{
+    background: #0077FF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s;
+    img{
+        transition: all .2s;
+        margin-left: 3px;
+    }
+    &:hover{
+        background: #0160cc;
+    }
+    &:hover img{
+        transform: translateX(5px);
+    }
+    span{
+        font-size: 14px;
+        font-weight: 600;
+        transition: transform .2s;
+    }
+}

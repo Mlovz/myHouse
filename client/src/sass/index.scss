@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+@import './mixin';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,ol,p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+input,button{
+  outline: none;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.app{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+body{
+  background: #121212;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+
+.mg_top{
+  margin-top: 20px;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}

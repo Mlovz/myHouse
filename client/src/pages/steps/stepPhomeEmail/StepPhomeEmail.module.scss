@@ -1,0 +1,29 @@
+.step__phone__email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+    .step__phone{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        button~button{
+            margin-left: 10px;
+        }
+        button{
+            background: #1D1D1D;
+            width: 50px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            transition: all .2s;
+            &.active{
+                background: #0077FF;
+            }
+        }
+    }
+}
